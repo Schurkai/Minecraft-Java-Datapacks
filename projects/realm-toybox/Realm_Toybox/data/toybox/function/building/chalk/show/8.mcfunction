@@ -1,0 +1,5 @@
+execute if score @s tb_c8d matches -99 run tellraw @s {"translate":"message.toybox.chalk.empty","fallback":"[Toybox] That chalk slot is empty.","color":"red"}
+execute unless score @s tb_c8d matches -99 unless score @s tb_c8d = $current_dim tb_data run tellraw @s {"translate":"message.toybox.chalk.dimension_mismatch","fallback":"[Toybox] Chalk marks can be shown only from their saved dimension.","color":"red"}
+execute unless score @s tb_c8d matches -99 if score @s tb_c8d = $current_dim tb_data run scoreboard players set @s tb_cslot 8
+execute unless score @s tb_c8d matches -99 if score @s tb_c8d = $current_dim tb_data run scoreboard players set @s tb_cshow 100
+execute unless score @s tb_c8d matches -99 if score @s tb_c8d = $current_dim tb_data run tellraw @s {"translate":"message.toybox.chalk.shown","fallback":"[Toybox] Showing chalk slot %s for 5 seconds at %s, %s, %s.","color":"aqua","with":["8",{"score":{"name":"@s","objective":"tb_c8x"}},{"score":{"name":"@s","objective":"tb_c8y"}},{"score":{"name":"@s","objective":"tb_c8z"}}]}

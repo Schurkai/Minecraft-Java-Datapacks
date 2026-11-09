@@ -1,0 +1,7 @@
+{
+  "function": "minecraft:set_enchantments",
+  "enchantments": {
+    "minecraft:efficiency": 7
+  },
+  "add": false
+}

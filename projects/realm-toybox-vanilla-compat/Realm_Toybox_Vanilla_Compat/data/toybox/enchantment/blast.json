@@ -1,0 +1,103 @@
+{
+    "description":  {
+                        "translate":  "enchantment.toybox.blast",
+                        "fallback":  "Blast",
+                        "color":  "gold"
+                    },
+    "supported_items":  "#toybox:ranged_weapons",
+    "primary_items":  "#toybox:ranged_weapons",
+    "weight":  2,
+    "max_level":  3,
+    "min_cost":  {
+                     "base":  12,
+                     "per_level_above_first":  15
+                 },
+    "max_cost":  {
+                     "base":  42,
+                     "per_level_above_first":  15
+                 },
+    "anvil_cost":  4,
+    "slots":  [
+                  "mainhand"
+              ],
+    "effects":  {
+                    "minecraft:hit_block":  [
+                                                {
+                                                    "effect":  {
+                                                                   "type":  "minecraft:explode",
+                                                                   "attribute_to_user":  true,
+                                                                   "radius":  {
+                                                                                  "type":  "minecraft:linear",
+                                                                                  "base":  1.8,
+                                                                                  "per_level_above_first":  0.45
+                                                                              },
+                                                                   "knockback_multiplier":  {
+                                                                                                "type":  "minecraft:linear",
+                                                                                                "base":  0.9,
+                                                                                                "per_level_above_first":  0.15
+                                                                                            },
+                                                                   "damage_type":  "minecraft:explosion",
+                                                                   "offset":  [
+                                                                                  0.0,
+                                                                                  0.25,
+                                                                                  0.0
+                                                                              ],
+                                                                   "create_fire":  false,
+                                                                   "block_interaction":  "none",
+                                                                   "small_particle":  {
+                                                                                          "type":  "minecraft:explosion"
+                                                                                      },
+                                                                   "large_particle":  {
+                                                                                          "type":  "minecraft:explosion_emitter"
+                                                                                      },
+                                                                   "sound":  "minecraft:entity.generic.explode"
+                                                               },
+                                                    "requirements":  {
+                                                                         "condition":  "minecraft:entity_properties",
+                                                                         "entity":  "this",
+                                                                         "predicate":  {
+                                                                                           "minecraft:entity_type":  "#minecraft:arrows"
+                                                                                       }
+                                                                     }
+                                                }
+                                            ],
+                    "minecraft:post_attack":  [
+                                                  {
+                                                      "enchanted":  "attacker",
+                                                      "affected":  "damaging_entity",
+                                                      "effect":  {
+                                                                     "type":  "minecraft:explode",
+                                                                     "attribute_to_user":  true,
+                                                                     "damage_type":  "minecraft:explosion",
+                                                                     "radius":  {
+                                                                                    "type":  "minecraft:linear",
+                                                                                    "base":  1.55,
+                                                                                    "per_level_above_first":  0.35
+                                                                                },
+                                                                     "knockback_multiplier":  {
+                                                                                                  "type":  "minecraft:linear",
+                                                                                                  "base":  0.65,
+                                                                                                  "per_level_above_first":  0.1
+                                                                                              },
+                                                                     "create_fire":  false,
+                                                                     "block_interaction":  "none",
+                                                                     "small_particle":  {
+                                                                                            "type":  "minecraft:explosion"
+                                                                                        },
+                                                                     "large_particle":  {
+                                                                                            "type":  "minecraft:explosion_emitter"
+                                                                                        },
+                                                                     "sound":  "minecraft:entity.generic.explode"
+                                                                 },
+                                                      "requirements":  {
+                                                                           "condition":  "minecraft:entity_properties",
+                                                                           "entity":  "direct_attacker",
+                                                                           "predicate":  {
+                                                                                             "minecraft:entity_type":  "#minecraft:arrows"
+                                                                                         }
+                                                                       }
+                                                  }
+                                              ]
+                },
+    "exclusive_set":  "#toybox:exclusive_set/blast_conflicts"
+}

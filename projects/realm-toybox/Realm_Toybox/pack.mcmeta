@@ -1,0 +1,17 @@
+{
+  "pack": {
+    "description": {
+      "translate": "pack.toybox.description",
+      "fallback": "Realm Toybox v0.9.0-rc1 — Java 26.2",
+      "color": "aqua"
+    },
+    "min_format": [
+      107,
+      1
+    ],
+    "max_format": [
+      107,
+      1
+    ]
+  }
+}

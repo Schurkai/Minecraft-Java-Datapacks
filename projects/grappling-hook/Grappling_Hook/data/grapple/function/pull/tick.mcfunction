@@ -1,0 +1,9 @@
+# Runs as the anchor. Select one speed tier, then move from the current player toward this anchor.
+particle minecraft:crit ~ ~ ~ 0.08 0.08 0.08 0.01 2 force
+execute if entity @a[tag=grapple.current,distance=..2.25,limit=1] run scoreboard players set $arrived gh_tmp 1
+execute unless score $arrived gh_tmp matches 1 unless entity @a[tag=grapple.current,distance=..16,limit=1] at @a[tag=grapple.current,limit=1] if block ~ ~ ~ minecraft:water run function grapple:movement/water_far
+execute unless score $arrived gh_tmp matches 1 unless score $moved gh_tmp matches 1 unless entity @a[tag=grapple.current,distance=..16,limit=1] at @a[tag=grapple.current,limit=1] unless block ~ ~ ~ minecraft:water run function grapple:movement/air_far
+execute unless score $arrived gh_tmp matches 1 unless score $moved gh_tmp matches 1 if entity @a[tag=grapple.current,distance=..16,limit=1] unless entity @a[tag=grapple.current,distance=..8,limit=1] at @a[tag=grapple.current,limit=1] if block ~ ~ ~ minecraft:water run function grapple:movement/water_medium
+execute unless score $arrived gh_tmp matches 1 unless score $moved gh_tmp matches 1 if entity @a[tag=grapple.current,distance=..16,limit=1] unless entity @a[tag=grapple.current,distance=..8,limit=1] at @a[tag=grapple.current,limit=1] unless block ~ ~ ~ minecraft:water run function grapple:movement/air_medium
+execute unless score $arrived gh_tmp matches 1 unless score $moved gh_tmp matches 1 if entity @a[tag=grapple.current,distance=..8,limit=1] unless entity @a[tag=grapple.current,distance=..2.25,limit=1] at @a[tag=grapple.current,limit=1] if block ~ ~ ~ minecraft:water run function grapple:movement/water_near
+execute unless score $arrived gh_tmp matches 1 unless score $moved gh_tmp matches 1 if entity @a[tag=grapple.current,distance=..8,limit=1] unless entity @a[tag=grapple.current,distance=..2.25,limit=1] at @a[tag=grapple.current,limit=1] unless block ~ ~ ~ minecraft:water run function grapple:movement/air_near

@@ -1,0 +1,9 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "!minecraft:glider": {},
+    "!minecraft:item_name": {},
+    "!minecraft:rarity": {},
+    "!minecraft:enchantment_glint_override": {}
+  }
+}

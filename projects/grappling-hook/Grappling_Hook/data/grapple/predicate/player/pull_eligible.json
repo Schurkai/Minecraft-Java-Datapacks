@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:flags": {
+          "is_flying": false,
+          "is_fall_flying": false
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "minecraft:vehicle": {}
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [],
+    "mode": "replace_section",
+    "offset": 0,
+    "size": 1,
+    "entity": "this"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "toybox": {
+        "anvil_lore": false
+      }
+    }
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    {
+      "translate": "message.toybox.anvil.cost_lore",
+      "fallback": "Prior-work penalty: +%s levels",
+      "with": [
+        {
+          "nbt": "anvil_lore.cost",
+          "storage": "toybox:runtime"
+        }
+      ],
+      "color": "dark_gray",
+      "italic": false
+    }
+  ],
+  "mode": "replace_section",
+  "offset": 0,
+  "size": 1,
+  "entity": "this"
+}

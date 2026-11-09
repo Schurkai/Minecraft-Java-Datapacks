@@ -1,0 +1,90 @@
+{
+  "description": {
+    "translate": "enchantment.toybox.leap",
+    "fallback": "Leap",
+    "color": "green"
+  },
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "primary_items": "#minecraft:enchantable/foot_armor",
+  "weight": 5,
+  "max_level": 3,
+  "min_cost": {
+    "base": 8,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "feet"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:apply_impulse",
+          "direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "coordinate_scale": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "magnitude": {
+            "type": "minecraft:linear",
+            "base": 0.02,
+            "per_level_above_first": 0.01
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "input": {
+                    "jump": true
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:flags": {
+                  "is_on_ground": false,
+                  "is_flying": false,
+                  "is_fall_flying": false,
+                  "is_in_water": false
+                },
+                "minecraft:movement": {
+                  "y": {
+                    "min": 0.01
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:vehicle": {}
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

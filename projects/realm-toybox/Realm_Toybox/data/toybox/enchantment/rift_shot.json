@@ -1,0 +1,41 @@
+{
+    "description":  {
+                        "translate":  "enchantment.toybox.rift_shot",
+                        "fallback":  "Rift Shot",
+                        "color":  "light_purple"
+                    },
+    "supported_items":  "#toybox:ranged_weapons",
+    "primary_items":  "#toybox:ranged_weapons",
+    "weight":  1,
+    "max_level":  1,
+    "min_cost":  {
+                     "base":  25,
+                     "per_level_above_first":  0
+                 },
+    "max_cost":  {
+                     "base":  50,
+                     "per_level_above_first":  0
+                 },
+    "anvil_cost":  8,
+    "slots":  [
+                  "mainhand"
+              ],
+    "effects":  {
+                    "minecraft:hit_block":  [
+                                                {
+                                                    "effect":  {
+                                                                   "type":  "minecraft:run_function",
+                                                                   "function":  "toybox:enchantment/rift_shot/hit_block"
+                                                               },
+                                                    "requirements":  {
+                                                                         "condition":  "minecraft:entity_properties",
+                                                                         "entity":  "this",
+                                                                         "predicate":  {
+                                                                                           "minecraft:entity_type":  "#minecraft:arrows"
+                                                                                       }
+                                                                     }
+                                                }
+                                            ]
+                },
+    "exclusive_set":  "#toybox:exclusive_set/special_shot"
+}

@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:iron_hoe",
+          "predicates": {
+            "minecraft:custom_data": "{toybox:{harvest_sickle:1b}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "toybox:farming/sickle/interact"
+  }
+}

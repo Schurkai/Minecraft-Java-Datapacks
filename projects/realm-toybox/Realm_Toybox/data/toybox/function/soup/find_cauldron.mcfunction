@@ -1,0 +1,22 @@
+# Bounded 0.25-block ray, from 0.25 through 5.25 blocks.
+execute if score $soup_found tb_data matches 0 anchored eyes positioned ^ ^ ^0.25 align xyz if block ~ ~ ~ minecraft:cauldron run function toybox:soup/cauldron
+execute if score $soup_found tb_data matches 0 anchored eyes positioned ^ ^ ^0.50 align xyz if block ~ ~ ~ minecraft:cauldron run function toybox:soup/cauldron
+execute if score $soup_found tb_data matches 0 anchored eyes positioned ^ ^ ^0.75 align xyz if block ~ ~ ~ minecraft:cauldron run function toybox:soup/cauldron
+execute if score $soup_found tb_data matches 0 anchored eyes positioned ^ ^ ^1.00 align xyz if block ~ ~ ~ minecraft:cauldron run function toybox:soup/cauldron
+execute if score $soup_found tb_data matches 0 anchored eyes positioned ^ ^ ^1.25 align xyz if block ~ ~ ~ minecraft:cauldron run function toybox:soup/cauldron
+execute if score $soup_found tb_data matches 0 anchored eyes positioned ^ ^ ^1.50 align xyz if block ~ ~ ~ minecraft:cauldron run function toybox:soup/cauldron
+execute if score $soup_found tb_data matches 0 anchored eyes positioned ^ ^ ^1.75 align xyz if block ~ ~ ~ minecraft:cauldron run function toybox:soup/cauldron
+execute if score $soup_found tb_data matches 0 anchored eyes positioned ^ ^ ^2.00 align xyz if block ~ ~ ~ minecraft:cauldron run function toybox:soup/cauldron
+execute if score $soup_found tb_data matches 0 anchored eyes positioned ^ ^ ^2.25 align xyz if block ~ ~ ~ minecraft:cauldron run function toybox:soup/cauldron
+execute if score $soup_found tb_data matches 0 anchored eyes positioned ^ ^ ^2.50 align xyz if block ~ ~ ~ minecraft:cauldron run function toybox:soup/cauldron
+execute if score $soup_found tb_data matches 0 anchored eyes positioned ^ ^ ^2.75 align xyz if block ~ ~ ~ minecraft:cauldron run function toybox:soup/cauldron
+execute if score $soup_found tb_data matches 0 anchored eyes positioned ^ ^ ^3.00 align xyz if block ~ ~ ~ minecraft:cauldron run function toybox:soup/cauldron
+execute if score $soup_found tb_data matches 0 anchored eyes positioned ^ ^ ^3.25 align xyz if block ~ ~ ~ minecraft:cauldron run function toybox:soup/cauldron
+execute if score $soup_found tb_data matches 0 anchored eyes positioned ^ ^ ^3.50 align xyz if block ~ ~ ~ minecraft:cauldron run function toybox:soup/cauldron
+execute if score $soup_found tb_data matches 0 anchored eyes positioned ^ ^ ^3.75 align xyz if block ~ ~ ~ minecraft:cauldron run function toybox:soup/cauldron
+execute if score $soup_found tb_data matches 0 anchored eyes positioned ^ ^ ^4.00 align xyz if block ~ ~ ~ minecraft:cauldron run function toybox:soup/cauldron
+execute if score $soup_found tb_data matches 0 anchored eyes positioned ^ ^ ^4.25 align xyz if block ~ ~ ~ minecraft:cauldron run function toybox:soup/cauldron
+execute if score $soup_found tb_data matches 0 anchored eyes positioned ^ ^ ^4.50 align xyz if block ~ ~ ~ minecraft:cauldron run function toybox:soup/cauldron
+execute if score $soup_found tb_data matches 0 anchored eyes positioned ^ ^ ^4.75 align xyz if block ~ ~ ~ minecraft:cauldron run function toybox:soup/cauldron
+execute if score $soup_found tb_data matches 0 anchored eyes positioned ^ ^ ^5.00 align xyz if block ~ ~ ~ minecraft:cauldron run function toybox:soup/cauldron
+execute if score $soup_found tb_data matches 0 anchored eyes positioned ^ ^ ^5.25 align xyz if block ~ ~ ~ minecraft:cauldron run function toybox:soup/cauldron

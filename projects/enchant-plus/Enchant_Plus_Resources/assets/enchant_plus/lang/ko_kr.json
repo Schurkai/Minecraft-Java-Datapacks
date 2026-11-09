@@ -1,0 +1,23 @@
+{
+  "pack.enchant_plus.description": "인챈트플러스 v1.1.4 — Minecraft Java 26.2",
+  "item.enchant_plus.winged_leather_chestplate": "날개 결속 가죽 조끼",
+  "item.enchant_plus.winged_copper_chestplate": "날개 결속 구리 흉갑",
+  "item.enchant_plus.winged_chainmail_chestplate": "날개 결속 사슬 흉갑",
+  "item.enchant_plus.winged_golden_chestplate": "날개 결속 금 흉갑",
+  "item.enchant_plus.winged_iron_chestplate": "날개 결속 철 흉갑",
+  "item.enchant_plus.winged_diamond_chestplate": "날개 결속 다이아몬드 흉갑",
+  "item.enchant_plus.winged_netherite_chestplate": "날개 결속 네더라이트 흉갑",
+  "message.enchant_plus.enabled": "[인챈트플러스] v1.1.4가 활성화되었습니다. 도움말: /trigger ep_help",
+  "message.enchant_plus.updated_core": "[인챈트플러스] v1.1.4로 갱신되었습니다. 도움말 명령은 /trigger ep_help입니다.",
+  "message.enchant_plus.help.title": "인챈트플러스 v1.1.4 | Minecraft Java 26.2",
+  "message.enchant_plus.help.enchantments": "• 모루 중복(레벨은 바닐라 상한): 날카로움·강타·살충 / 보호 4종 / 수선·무한 / 다중 발사·관통 / 철퇴 육중·격파·날카로움·강타·살충",
+  "message.enchant_plus.help.wingbound": "• 날개 결속: 제작 칸에서 흉갑 1개 + 겉날개 1개 조합 (모루 아님)",
+  "message.enchant_plus.help.wingbound_separate": "• 날개 분리: 날개 결속 흉갑을 Q키로 숫돌 윗면에 올리기 (흉갑·겉날개 반환)",
+  "message.enchant_plus.help.anvil": "• 비용 초기화: 누적 작업 비용이 +1 이상인 장비와 네더의 별 1개를 Q키로 같은 모루 윗면에 던지기",
+  "message.enchant_plus.help.anvil_cost": "• 표시값은 마인크래프트의 이전 작업 페널티이며 +0은 표시하지 않음",
+  "message.enchant_plus.help.commands": "• 도움말: /trigger ep_help | 재련 안내: /trigger ep_anvil",
+  "message.enchant_plus.anvil.cost_lore": "누적 작업 비용: +%s레벨",
+  "message.enchant_plus.anvil.hint": "[인챈트플러스] 비용 +1 이상인 장비와 네더의 별 1개를 Q키로 같은 모루 윗면에 던지세요.",
+  "message.enchant_plus.anvil.success": "[인챈트플러스] 네더의 별 1개를 소모해 누적 작업 비용을 초기화했습니다.",
+  "message.enchant_plus.wingbound.separated": "[인챈트플러스] 날개 결속을 해제해 흉갑과 겉날개로 분리했습니다."
+}

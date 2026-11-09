@@ -1,0 +1,22 @@
+# Local Minecraft server and test state
+server-*.jar
+eula.txt
+server.properties
+world/
+logs/
+crash-reports/
+.test_server*/
+.baseline_server/
+.vanilla_reports/
+*.pid.json
+*.lock
+
+# Generated and editor state
+node_modules/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Nested repository metadata must never be published
+**/.git/

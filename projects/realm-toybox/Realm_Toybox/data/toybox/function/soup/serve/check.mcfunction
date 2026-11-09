@@ -1,0 +1,3 @@
+execute unless entity @e[type=minecraft:marker,tag=toybox.soup_pot,distance=..0.9,limit=1] run tellraw @s {"translate":"message.toybox.soup.no_pot","fallback":"[Toybox] This cauldron is not a loaded Soup Pot.","color":"red"}
+execute if entity @e[type=minecraft:marker,tag=toybox.soup_pot,distance=..0.9,limit=1] if items entity @s weapon.mainhand * run tellraw @s {"translate":"message.toybox.soup.empty_hand","fallback":"[Toybox] Empty your main hand before taking a serving.","color":"red"}
+execute if entity @e[type=minecraft:marker,tag=toybox.soup_pot,distance=..0.9,limit=1] unless items entity @s weapon.mainhand * as @e[type=minecraft:marker,tag=toybox.soup_pot,distance=..0.9,limit=1,sort=nearest] at @s run function toybox:soup/serve/marker

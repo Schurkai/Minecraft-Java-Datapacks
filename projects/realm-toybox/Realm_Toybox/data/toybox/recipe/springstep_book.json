@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "toybox_enchanted_books",
+  "show_notification": false,
+  "ingredients": [
+    "minecraft:book",
+    "minecraft:slime_block",
+    "minecraft:rabbit_foot",
+    "minecraft:amethyst_shard"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "toybox:springstep": 1
+      }
+    }
+  }
+}

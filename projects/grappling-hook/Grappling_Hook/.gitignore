@@ -1,0 +1,20 @@
+# Local Minecraft server and test artifacts
+server-*.jar
+eula.txt
+server.properties
+world/
+logs/
+crash-reports/
+.test_server*/
+*.pid.json
+*.lock
+
+# Generated workspace artifacts
+release/
+node_modules/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

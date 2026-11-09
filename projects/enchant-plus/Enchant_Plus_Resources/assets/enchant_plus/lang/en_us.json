@@ -1,0 +1,23 @@
+{
+  "pack.enchant_plus.description": "Enchant Plus v1.1.4 — Minecraft Java 26.2",
+  "item.enchant_plus.winged_leather_chestplate": "Wingbound Leather Tunic",
+  "item.enchant_plus.winged_copper_chestplate": "Wingbound Copper Chestplate",
+  "item.enchant_plus.winged_chainmail_chestplate": "Wingbound Chainmail Chestplate",
+  "item.enchant_plus.winged_golden_chestplate": "Wingbound Golden Chestplate",
+  "item.enchant_plus.winged_iron_chestplate": "Wingbound Iron Chestplate",
+  "item.enchant_plus.winged_diamond_chestplate": "Wingbound Diamond Chestplate",
+  "item.enchant_plus.winged_netherite_chestplate": "Wingbound Netherite Chestplate",
+  "message.enchant_plus.enabled": "[Enchant Plus] v1.1.4 enabled. Help: /trigger ep_help",
+  "message.enchant_plus.updated_core": "[Enchant Plus] Updated to v1.1.4. The help command is /trigger ep_help.",
+  "message.enchant_plus.help.title": "Enchant Plus v1.1.4 | Minecraft Java 26.2",
+  "message.enchant_plus.help.enchantments": "• Anvil combinations (vanilla level caps): Sharpness/Smite/Bane; all four Protections; Mending/Infinity; Multishot/Piercing; and Density/Breach/Sharpness/Smite/Bane on maces",
+  "message.enchant_plus.help.wingbound": "• Wingbound: combine 1 chestplate + 1 elytra in a crafting grid (not an anvil)",
+  "message.enchant_plus.help.wingbound_separate": "• Separate: press Q to place a Wingbound Chestplate on top of a grindstone (returns both items)",
+  "message.enchant_plus.help.anvil": "• Cost reset: press Q to drop an item with +1 or more prior-work cost and 1 Nether Star onto the same anvil top",
+  "message.enchant_plus.help.anvil_cost": "• The shown value is Minecraft's prior-work penalty; +0 is hidden",
+  "message.enchant_plus.help.commands": "• Help: /trigger ep_help | Renewal guide: /trigger ep_anvil",
+  "message.enchant_plus.anvil.cost_lore": "Prior-work penalty: +%s levels",
+  "message.enchant_plus.anvil.hint": "[Enchant Plus] Press Q to drop an item with +1 or more prior-work cost and 1 Nether Star onto the same anvil top.",
+  "message.enchant_plus.anvil.success": "[Enchant Plus] Consumed 1 Nether Star and reset the prior-work penalty.",
+  "message.enchant_plus.wingbound.separated": "[Enchant Plus] Separated the Wingbound Chestplate into its chestplate and elytra."
+}

@@ -1,0 +1,24 @@
+{
+    "type":  "minecraft:crafting_transmute",
+    "category":  "equipment",
+    "group":  "toybox_winged_chestplates",
+    "show_notification":  false,
+    "input":  "minecraft:diamond_chestplate",
+    "material":  "minecraft:elytra",
+    "result":  {
+                   "id":  "minecraft:diamond_chestplate",
+                   "components":  {
+                                      "minecraft:glider":  {
+
+                                                           },
+                                      "minecraft:item_name":  {
+                                                                  "translate":  "item.enchant_plus.winged_diamond_chestplate",
+                                                                  "fallback":  "날개 결속 다이아몬드 흉갑",
+                                                                  "color":  "aqua",
+                                                                  "italic":  false
+                                                              },
+                                      "minecraft:rarity":  "rare",
+                                      "minecraft:enchantment_glint_override":  true
+                                  }
+               }
+}

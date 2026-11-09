@@ -1,0 +1,40 @@
+{
+    "type":  "minecraft:crafting_shapeless",
+    "category":  "misc",
+    "group":  "toybox_movement",
+    "show_notification":  false,
+    "ingredients":  [
+                        "minecraft:glass_bottle",
+                        "minecraft:wind_charge",
+                        "minecraft:feather"
+                    ],
+    "result":  {
+                   "id":  "minecraft:potion",
+                   "components":  {
+                                      "minecraft:item_name":  {
+                                                                  "translate":  "item.toybox.wind_bottle",
+                                                                  "fallback":  "Wind Bottle",
+                                                                  "color":  "aqua",
+                                                                  "italic":  false
+                                                              },
+                                      "minecraft:potion_contents":  {
+                                                                        "custom_color":  7450879,
+                                                                        "custom_effects":  [
+                                                                                               {
+                                                                                                   "id":  "minecraft:levitation",
+                                                                                                   "amplifier":  2,
+                                                                                                   "duration":  18,
+                                                                                                   "show_particles":  false
+                                                                                               },
+                                                                                               {
+                                                                                                   "id":  "minecraft:slow_falling",
+                                                                                                   "amplifier":  0,
+                                                                                                   "duration":  100,
+                                                                                                   "show_particles":  false
+                                                                                               }
+                                                                                           ]
+                                                                    },
+                                      "minecraft:rarity":  "uncommon"
+                                  }
+               }
+}

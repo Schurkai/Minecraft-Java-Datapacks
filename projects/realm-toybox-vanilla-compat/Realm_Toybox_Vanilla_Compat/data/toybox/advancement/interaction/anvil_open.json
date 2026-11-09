@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "open": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:anvil"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "toybox:anvil_reset/opened"
+  }
+}

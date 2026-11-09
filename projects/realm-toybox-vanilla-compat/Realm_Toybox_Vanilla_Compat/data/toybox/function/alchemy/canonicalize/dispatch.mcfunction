@@ -1,0 +1,43 @@
+scoreboard players set $recognized tb_data 0
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:absorption"} run function toybox:alchemy/canonicalize/effect/absorption
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:bad_omen"} run function toybox:alchemy/canonicalize/effect/bad_omen
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:blindness"} run function toybox:alchemy/canonicalize/effect/blindness
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:breath_of_the_nautilus"} run function toybox:alchemy/canonicalize/effect/breath_of_the_nautilus
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:conduit_power"} run function toybox:alchemy/canonicalize/effect/conduit_power
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:darkness"} run function toybox:alchemy/canonicalize/effect/darkness
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:dolphins_grace"} run function toybox:alchemy/canonicalize/effect/dolphins_grace
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:fire_resistance"} run function toybox:alchemy/canonicalize/effect/fire_resistance
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:glowing"} run function toybox:alchemy/canonicalize/effect/glowing
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:haste"} run function toybox:alchemy/canonicalize/effect/haste
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:health_boost"} run function toybox:alchemy/canonicalize/effect/health_boost
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:hero_of_the_village"} run function toybox:alchemy/canonicalize/effect/hero_of_the_village
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:hunger"} run function toybox:alchemy/canonicalize/effect/hunger
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:infested"} run function toybox:alchemy/canonicalize/effect/infested
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:instant_damage"} run function toybox:alchemy/canonicalize/effect/instant_damage
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:instant_health"} run function toybox:alchemy/canonicalize/effect/instant_health
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:invisibility"} run function toybox:alchemy/canonicalize/effect/invisibility
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:jump_boost"} run function toybox:alchemy/canonicalize/effect/jump_boost
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:levitation"} run function toybox:alchemy/canonicalize/effect/levitation
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:luck"} run function toybox:alchemy/canonicalize/effect/luck
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:mining_fatigue"} run function toybox:alchemy/canonicalize/effect/mining_fatigue
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:nausea"} run function toybox:alchemy/canonicalize/effect/nausea
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:night_vision"} run function toybox:alchemy/canonicalize/effect/night_vision
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:oozing"} run function toybox:alchemy/canonicalize/effect/oozing
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:poison"} run function toybox:alchemy/canonicalize/effect/poison
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:raid_omen"} run function toybox:alchemy/canonicalize/effect/raid_omen
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:regeneration"} run function toybox:alchemy/canonicalize/effect/regeneration
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:resistance"} run function toybox:alchemy/canonicalize/effect/resistance
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:saturation"} run function toybox:alchemy/canonicalize/effect/saturation
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:slow_falling"} run function toybox:alchemy/canonicalize/effect/slow_falling
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:slowness"} run function toybox:alchemy/canonicalize/effect/slowness
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:speed"} run function toybox:alchemy/canonicalize/effect/speed
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:strength"} run function toybox:alchemy/canonicalize/effect/strength
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:trial_omen"} run function toybox:alchemy/canonicalize/effect/trial_omen
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:unluck"} run function toybox:alchemy/canonicalize/effect/unluck
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:water_breathing"} run function toybox:alchemy/canonicalize/effect/water_breathing
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:weakness"} run function toybox:alchemy/canonicalize/effect/weakness
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:weaving"} run function toybox:alchemy/canonicalize/effect/weaving
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:wind_charged"} run function toybox:alchemy/canonicalize/effect/wind_charged
+execute if data storage toybox:scratch alchemy.current{id:"minecraft:wither"} run function toybox:alchemy/canonicalize/effect/wither
+execute unless score $recognized tb_data matches 1 run scoreboard players set $invalid tb_data 1
+execute unless score $recognized tb_data matches 1 run scoreboard players set $reason tb_data 1

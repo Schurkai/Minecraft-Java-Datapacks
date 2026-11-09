@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:fishing_rod",
+    "minecraft:lead",
+    "minecraft:tripwire_hook",
+    "minecraft:slime_ball",
+    "minecraft:amethyst_shard"
+  ],
+  "result": {
+    "id": "minecraft:fishing_rod",
+    "components": {
+      "minecraft:custom_data": {
+        "toybox": {
+          "grappling_hook": true
+        }
+      },
+      "minecraft:custom_name": {
+        "translate": "item.toybox.grappling_hook",
+        "fallback": "Grappling Hook",
+        "color": "aqua",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item.toybox.grappling_hook.lore",
+          "fallback": "Cast at a block to pull yourself in; sneak to cancel.",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:item_model": "minecraft:tripwire_hook",
+      "minecraft:enchantments": {
+        "toybox:grappling": 1
+      }
+    }
+  }
+}

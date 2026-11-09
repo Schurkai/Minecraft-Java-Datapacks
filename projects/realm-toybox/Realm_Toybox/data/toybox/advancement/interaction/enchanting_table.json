@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:enchanting_table"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "toybox:advanced_enchant/interact"
+  }
+}

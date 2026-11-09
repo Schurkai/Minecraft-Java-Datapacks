@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "toybox_enchanted_books",
+  "show_notification": false,
+  "ingredients": [
+    "minecraft:book",
+    "minecraft:tnt",
+    "minecraft:amethyst_shard",
+    "minecraft:firework_star"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "toybox:blast": 1
+      }
+    }
+  }
+}

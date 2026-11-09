@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "toybox_enchanted_books",
+  "show_notification": false,
+  "ingredients": [
+    "minecraft:book",
+    "minecraft:echo_shard",
+    "minecraft:ender_pearl",
+    "minecraft:amethyst_shard"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "toybox:rift_shot": 1
+      }
+    }
+  }
+}

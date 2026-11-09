@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "SHS",
+    "IRI",
+    " W "
+  ],
+  "key": {
+    "S": "minecraft:string",
+    "H": "minecraft:tripwire_hook",
+    "I": "minecraft:iron_ingot",
+    "R": "minecraft:fishing_rod",
+    "W": "minecraft:wind_charge"
+  },
+  "result": {
+    "id": "minecraft:fishing_rod",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+        "grapple": {
+          "hook": true,
+          "version": 1
+        }
+      },
+      "minecraft:custom_name": {
+        "translate": "item.grapple.grappling_hook",
+        "fallback": "갈고리",
+        "color": "aqua",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item.grapple.grappling_hook.lore.use",
+          "fallback": "블록에 던지면 그쪽으로 빠르게 당겨집니다.",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "item.grapple.grappling_hook.lore.cancel",
+          "fallback": "다시 사용하거나 웅크리면 해제합니다. 최대 30블록.",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ],
+      "minecraft:item_model": "minecraft:tripwire_hook",
+      "minecraft:unbreakable": {}
+    }
+  },
+  "show_notification": true
+}

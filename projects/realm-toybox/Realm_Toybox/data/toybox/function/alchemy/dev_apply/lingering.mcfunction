@@ -1,0 +1,1 @@
+$execute store success score $applied tb_data run item replace block 0 100 0 container.0 with minecraft:lingering_potion[minecraft:potion_contents=$(contents),minecraft:custom_name={translate:"item.toybox.mixed_potion",fallback:"Mixed Potion",color:"light_purple",italic:false},minecraft:custom_data={toybox:{mixed_potion:true}}]

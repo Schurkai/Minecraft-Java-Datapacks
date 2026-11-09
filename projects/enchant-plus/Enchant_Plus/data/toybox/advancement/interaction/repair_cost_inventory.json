@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "changed": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "function": "toybox:anvil_reset/inventory_changed"
+  }
+}

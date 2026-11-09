@@ -1,0 +1,11 @@
+scoreboard players set @s tb_mstate 0
+scoreboard players set @s tb_cslot 0
+scoreboard players set @s tb_cshow 0
+scoreboard players set @s tb_c1d -99
+scoreboard players set @s tb_c2d -99
+scoreboard players set @s tb_c3d -99
+scoreboard players set @s tb_c4d -99
+scoreboard players set @s tb_c5d -99
+scoreboard players set @s tb_c6d -99
+scoreboard players set @s tb_c7d -99
+scoreboard players set @s tb_c8d -99

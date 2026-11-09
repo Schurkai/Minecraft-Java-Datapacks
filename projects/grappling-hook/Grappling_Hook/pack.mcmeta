@@ -1,0 +1,17 @@
+{
+  "pack": {
+    "description": {
+      "translate": "pack.grapple.description",
+      "fallback": "갈고리 v0.1.0-rc1 — Minecraft Java 26.2",
+      "color": "aqua"
+    },
+    "min_format": [
+      107,
+      1
+    ],
+    "max_format": [
+      107,
+      1
+    ]
+  }
+}

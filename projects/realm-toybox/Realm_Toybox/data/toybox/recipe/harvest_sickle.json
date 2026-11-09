@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "IIA",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "A": "minecraft:amethyst_shard",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:iron_hoe",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+        "toybox": {
+          "harvest_sickle": true,
+          "version": 1
+        }
+      },
+      "minecraft:custom_name": {
+        "translate": "item.toybox.harvest_sickle",
+        "fallback": "Harvest Sickle",
+        "color": "green",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item.toybox.harvest_sickle.lore.use",
+          "fallback": "Hold use while aiming at a mature crop to harvest a 3x3 area.",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "item.toybox.harvest_sickle.lore.crops",
+          "fallback": "Wheat, carrots, potatoes, beetroot, and nether wart.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "translate": "item.toybox.harvest_sickle.lore.cost",
+          "fallback": "Costs 1 durability per successful sweep; crops are not replanted.",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ],
+      "minecraft:blocks_attacks": {
+        "block_delay_seconds": 3600
+      }
+    }
+  },
+  "show_notification": true
+}
